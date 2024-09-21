@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Friends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>MY FRIENDS</h1>
+
+  <div class="friends-container">
+    <div class="friend-card">
+      <img src="ayesha.jpg" alt="Friend 1" class="friend-pic">
+      <p class="friend-name">Ayesha Maryam</p>
+      <p class="friend-title"><strong>Miss Sweetheart</strong></p>
+      <div class="buttons">
+        <button onclick="showInfo(1, 'info')">Info</button>
+        <button onclick="showInfo(1, 'hobbies')">Hobbies</button>
+        <button onclick="showInfo(1, 'favorites')">Favorites</button>
+      </div>
+    </div>
+
+    <div class="friend-card">
+      <img src="baneen.jpg" alt="Friend 2" class="friend-pic">
+      <p class="friend-name">Baneen Raza</p>
+      <p class="friend-title"><strong>Miss Gorgeous</strong></p>
+      <div class="buttons">
+        <button onclick="showInfo(2, 'info')">Info</button>
+        <button onclick="showInfo(2, 'hobbies')">Hobbies</button>
+        <button onclick="showInfo(2, 'favorites')">Favorites</button>
+      </div>
+    </div>
+
+    <div class="friend-card">
+      <img src="neha.jpg" alt="Friend 3" class="friend-pic">
+      <p class="friend-name">Neha Shoaib</p>
+      <p class="friend-title"><strong>Miss Genius</strong></p>
+      <div class="buttons">
+        <button onclick="showInfo(3, 'info')">Info</button>
+        <button onclick="showInfo(3, 'hobbies')">Hobbies</button>
+        <button onclick="showInfo(3, 'favorites')">Favorites</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="info-container" class="info-container">
+    <p id="friend-info"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
